@@ -5,13 +5,13 @@ const availableYears = Array.from({ length: 5 }, (_, i) => currentYear - i);
 
 const SermonArchiveHome = () => {
   return (
-    <main className="min-h-screen bg-[#0b0c10] text-white flex flex-col items-center justify-center px-6 py-16">
+    <main className="min-h-screen text-white flex flex-col items-center justify-center px-6 py-16">
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-4">
         Welcome to the Sermon Archive
       </h1>
 
       <p className="text-lg md:text-xl text-white/80 mb-12 text-center max-w-2xl">
-        Dive into the Spirit-filled teachings of Reverend [Name].<br />
+        Dive into the Spirit-filled teachings of Reverend Michaelight Anjorin.<br />
         Choose a year to explore the sermons delivered then.
       </p>
 
